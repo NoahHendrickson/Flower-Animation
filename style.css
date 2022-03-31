@@ -1,0 +1,26 @@
+div {
+  width: 70%;
+}
+
+.inner {
+  fill: blue;
+}
+.middle {
+  fill: aqua;
+}
+
+.outer {
+  fill: pink;
+}
+
+.face {
+  fill: orange;
+}
+
+.f {
+  clip-path: url("#inner-clip-path");
+  stroke: bisque;
+  stroke-width: 150px;
+  stroke-dashoffset: 400;
+  stroke-dasharray: 1000;
+}
