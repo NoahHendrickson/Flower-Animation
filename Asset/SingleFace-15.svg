@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 353.14 353.14"><defs><style>.b{fill:#edecc2;}.c{fill:#fff;}.d{fill:#231f20;}.d{stroke:#231f20\;stroke-miterlimit:10;stroke-width:1.5px;}</style></defs>
+<g>
+<circle class="b" cx="176.57" cy="176.57" r="167.17"/>
+<path class="c" d="M176.57,18.8c42.14,0,81.76,16.41,111.56,46.21,29.8,29.8,46.21,69.42,46.21,111.56s-16.41,81.76-46.21,111.56c-29.8,29.8-69.42,46.21-111.56,46.21s-81.76-16.41-111.56-46.21c-29.8-29.8-46.21-69.42-46.21-111.56s16.41-81.76,46.21-111.56S134.43,18.8,176.57,18.8M176.57,0C79.05,0,0,79.05,0,176.57s79.05,176.57,176.57,176.57,176.57-79.05,176.57-176.57S274.09,0,176.57,0h0Z"/>
+</g>
+<g>
+<g>
+<rect class="d" x="107.62" y="86.79" width="19.22" height="95.07" rx="9.61" ry="9.61" transform="translate(129.31 -43.55) rotate(45)"/>
+<rect class="d" x="107.62" y="86.79" width="19.22" height="95.07" rx="9.61" ry="9.61" transform="translate(295.1 146.41) rotate(135)"/>
+</g><g><rect class="d" x="226.31" y="86.79" width="19.22" height="95.07" rx="9.61" ry="9.61" transform="translate(164.08 -127.48) rotate(45)"/><rect class="d" x="226.31" y="86.79" width="19.22" height="95.07" rx="9.61" ry="9.61" transform="translate(497.72 62.48) rotate(135)"/></g></g><path class="d" d="M106.27,204.03H248.15v28.75c0,39.15-31.79,70.94-70.94,70.94h0c-39.15,0-70.94-31.79-70.94-70.94v-28.75h0Z"/></svg>
