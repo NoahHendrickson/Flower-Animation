@@ -1,26 +1,346 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+
 div {
-  width: 70%;
+  width: 50%;
+}
+
+svg {
+  display: flex;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+:root {
+  --one-inner-coord: M470.29,296.18c-11.37,12.17-21.33,26.21-28.36,42.3-.36,.8-.69,1.59-1.03,2.41-.54,1.33-1.08,2.67-1.57,4-.46,.13-.95,.28-1.41,.44-2.39,.74-4.75,1.57-7.06,2.44-2.26,.85-4.47,1.75-6.65,2.7-.05,0-.1,.03-.13,.05-2.23,.98-4.44,2-6.6,3.08-1.33,.67-2.64,1.33-3.95,2.05-1.05-.49-2.13-.95-3.21-1.39-.26-.13-.54-.26-.82-.36-.8-.33-1.57-.64-2.36-.95-16.4-6.42-33.39-9.32-50.05-9.88,.36-7.37,1.16-14.61,2.26-21.64,.39-2.57,.85-5.11,1.31-7.62,.49-2.54,1-5.03,1.54-7.49,3.13-14.04,7.21-26.77,11.09-37.22,.98-2.64,1.95-5.13,2.9-7.47,1.05-2.62,2.05-5.03,3-7.21,1.51-3.49,2.85-6.39,3.93-8.62,1.85,.64,4.08,1.46,6.67,2.46,2.16,.82,4.54,1.77,7.14,2.87,2.26,.92,4.67,1.95,7.19,3.11,10.52,4.7,23.18,11.09,36.14,19.3,1.08,.67,2.13,1.36,3.21,2.05,1.05,.69,2.13,1.41,3.18,2.13,2.1,1.41,4.21,2.87,6.29,4.41,5.9,4.29,11.76,8.96,17.35,14.04Z
+}
+
+.d {
+  fill: #231F20;
 }
 
 .inner {
-  fill: blue;
 }
+
 .middle {
-  fill: aqua;
 }
 
 .outer {
-  fill: pink;
 }
 
 .face {
-  fill: orange;
 }
 
-.f {
-  clip-path: url("#inner-clip-path");
-  stroke: bisque;
-  stroke-width: 150px;
-  stroke-dashoffset: 400;
-  stroke-dasharray: 1000;
+@keyframes bounce-one {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(5px, -25px);  }
+  100% {transform: translateX(0px);}
+}
+@keyframes bounce-two {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(25px, -10px);  }
+  100% {transform: translateX(0px);}
+}
+@keyframes bounce-three {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(40px, 15px);  }
+  100% {transform: translateX(0px);}
+}
+@keyframes bounce-four {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(10px, 25px);  }
+  100% {transform: translateX(0px);}
+}
+@keyframes bounce-five {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(-5px, 25px);  }
+  100% {transform: translateX(0px);}
+}
+@keyframes bounce-six {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(-25px, 15px);  }
+  100% {transform: translateX(0px);}
+}
+@keyframes bounce-seven {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(-40px, -8px);  }
+  100% {transform: translateX(0px);}
+}
+@keyframes bounce-eight {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(-15px, -40px);  }
+  100% {transform: translateX(0px);}
+}
+
+.one-petal {
+  animation: bounce-one .75s;
+}
+
+.two-petal {
+  animation: bounce-two .75s;
+  animation-delay: 25ms;
+}
+
+.three-petal {
+  animation: bounce-three .75s;
+  animation-delay: 50ms;
+}
+
+.four-petal {
+  animation: bounce-four .75s;
+  animation-delay: 100ms;
+}
+
+.five-petal {
+  animation: bounce-five .75s;
+  animation-delay: 200ms;
+}
+
+.six-petal {
+  animation: bounce-six .75s;
+  animation-delay: 250ms;
+}
+
+.seven-petal {
+  animation: bounce-seven .75s;
+  animation-delay: 300ms;
+}
+
+.eight-petal {
+  animation: bounce-eight .75s;
+  animation-delay: 350ms;
+}
+
+@keyframes middle-one {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(0px, -40px);  }
+  100% {transform: translateX(0px);}
+}
+@keyframes middle-two {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(30px, -35px);  }
+  100% {transform: translateX(0px);}
+}
+@keyframes middle-three {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(40px, 0px);  }
+  100% {transform: translateX(0px);}
+}
+@keyframes middle-four {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(30px, 35px);  }
+  100% {transform: translateX(0px);}
+}
+@keyframes middle-five {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(0px, 40px);  }
+  100% {transform: translateX(0px);}
+}
+@keyframes middle-six {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(-30px, 35px);  }
+  100% {transform: translateX(0px);}
+}
+@keyframes middle-seven {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(-40px, 0px);  }
+  100% {transform: translateX(0px);}
+}
+@keyframes middle-eight {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(-30px, -35px);  }
+  100% {transform: translateX(0px);}
+}
+
+.one-middle {
+  animation: middle-one 1s;
+  animation-delay: 25ms;
+}
+
+.two-middle {
+  animation: middle-two .75s;
+  animation-delay: 50ms;
+}
+
+.three-middle {
+  animation: middle-three .75s;
+  animation-delay: 100ms;
+}
+
+.four-middle {
+  animation: middle-four .75s;
+  animation-delay: 200ms;
+}
+
+.five-middle {
+  animation: middle-five .75s;
+  animation-delay: 250ms;
+}
+
+.six-middle {
+  animation: middle-six .75s;
+  animation-delay: 300ms;
+}
+
+.seven-middle {
+  animation: middle-seven .75s;
+  animation-delay: 350ms;
+}
+
+.eight-middle {
+  animation: middle-eight .75s;
+  animation-delay: 400ms;
+}
+
+@keyframes one-outer {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(10px, -35px);  }
+  100% {transform: translateX(0px);}
+}
+@keyframes two-outer {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(35px, -10px);  }
+  100% {transform: translateX(0px);}
+}
+@keyframes three-outer {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(35px, 10px);  }
+  100% {transform: translateX(0px);}
+}
+@keyframes four-outer {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(10px, 35px);  }
+  100% {transform: translateX(0px);}
+}
+@keyframes five-outer {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(-10px, 35px);  }
+  100% {transform: translateX(0px);}
+}
+@keyframes six-outer {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(-35px, 15px);  }
+  100% {transform: translateX(0px);}
+}
+@keyframes seven-outer {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(-35px, -5px);  }
+  100% {transform: translateX(0px);}
+}
+@keyframes eight-outer {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(-15px, -35px);  }
+  100% {transform: translateX(0px);}
+}
+
+.one-outer {
+  animation: one-outer .75s;
+  animation-delay: 25ms;
+
+}
+.two-outer {
+  animation: two-outer .75s;
+  animation-delay: 50ms;
+}
+.three-outer {
+  animation: three-outer .75s;
+  animation-delay: 100ms;
+}
+.four-outer {
+  animation: four-outer .75s;
+  animation-delay: 200ms;
+}
+.five-outer {
+  animation: five-outer .75s;
+  animation-delay: 250ms;
+}
+.six-outer {
+  animation: six-outer .75s;
+  animation-delay: 300ms;
+}
+.seven-outer {
+  animation: seven-outer .75s;
+  animation-delay: 350ms;
+}
+.eight-outer {
+  animation: eight-outer .75s;
+  animation-delay: 400ms;
+}
+
+@keyframes one-outest {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(0px, -40px);  }
+  100% {transform: translateX(0px);}
+}
+@keyframes two-outest {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(40px, -40px);  }
+  100% {transform: translateX(0px);}
+}
+@keyframes three-outest {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(40px, 0px);  }
+  100% {transform: translateX(0px);}
+}
+@keyframes four-outest {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(35px, 35px);  }
+  100% {transform: translateX(0px);}
+}
+@keyframes five-outest {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(0px, 40px);  }
+  100% {transform: translateX(0px);}
+}
+@keyframes six-outest {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(-30px, 35px);  }
+  100% {transform: translateX(0px);}
+}
+@keyframes seven-outest {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(-40px, 0px);  }
+  100% {transform: translateX(0px);}
+}
+@keyframes eight-outest {
+  0% {transform: translateX(0px);}
+  50% {  transform: translate(-30px, -35px);  }
+  100% {transform: translateX(0px);}
+}
+
+.one-outest {
+  animation: one-outest 1s;
+}
+.two-outest {
+  animation: two-outest 1s;
+  animation-delay: 25ms;
+}
+.three-outest {
+  animation: three-outest 1s;
+  animation-delay: 50ms;
+}
+.four-outest {
+  animation: four-outest 1s;
+  animation-delay: 100ms;
+}
+.five-outest {
+  animation: five-outest 1s;
+  animation-delay: 200ms;
+}
+.six-outest {
+  animation: six-outest 1s;
+  animation-delay: 250ms;
+}
+.seven-outest {
+  animation: seven-outest 1s;
+  animation-delay: 300ms;
+}
+.eight-outest {
+  animation: eight-outest 1s;
+  animation-delay: 300ms;
 }
