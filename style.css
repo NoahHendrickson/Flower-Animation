@@ -3,6 +3,7 @@ body {
   padding: 0px;
   display: flex;
   justify-content: center;
+  background-color: #f95b1c;
 }
 
 div {
@@ -16,24 +17,8 @@ svg {
   justify-content: center;
 }
 
-:root {
-  --one-inner-coord: M470.29, 296.18c-11.37, 12.17-21.33, 26.21-28.36, 42.3-0.36,
-    0.8-0.69, 1.59-1.03, 2.41-0.54, 1.33-1.08, 2.67-1.57, 4-0.46, 0.13-0.95,
-    0.28-1.41, 0.44-2.39, 0.74-4.75, 1.57-7.06, 2.44-2.26, 0.85-4.47, 1.75-6.65,
-    2.7-0.05, 0-0.1, 0.03-0.13, 0.05-2.23, 0.98-4.44, 2-6.6, 3.08-1.33,
-    0.67-2.64, 1.33-3.95,
-    2.05-1.05-0.49-2.13-0.95-3.21-1.39-.26-.13-.54-.26-.82-.36-.8-.33-1.57-.64-2.36-.95-16.4-6.42-33.39-9.32-50.05-9.88,
-    0.36-7.37, 1.16-14.61, 2.26-21.64, 0.39-2.57, 0.85-5.11, 1.31-7.62,
-    0.49-2.54, 1-5.03, 1.54-7.49, 3.13-14.04, 7.21-26.77, 11.09-37.22, 0.98-2.64,
-    1.95-5.13, 2.9-7.47, 1.05-2.62, 2.05-5.03, 3-7.21, 1.51-3.49, 2.85-6.39,
-    3.93-8.62, 1.85, 0.64, 4.08, 1.46, 6.67, 2.46, 2.16, 0.82, 4.54, 1.77, 7.14,
-    2.87, 2.26, 0.92, 4.67, 1.95, 7.19, 3.11, 10.52, 4.7, 23.18, 11.09, 36.14,
-    19.3, 1.08, 0.67, 2.13, 1.36, 3.21, 2.05, 1.05, 0.69, 2.13, 1.41, 3.18, 2.13,
-    2.1, 1.41, 4.21, 2.87, 6.29, 4.41, 5.9, 4.29, 11.76, 8.96, 17.35, 14.04Z;
-}
-
 .d {
-  fill: #231f20;
+  fill: #363f33;
 }
 
 @keyframes bounce-one {
@@ -125,41 +110,41 @@ svg {
   }
 }
 
-.one-petal {
+svg:hover .one-petal {
   animation: bounce-one 0.75s;
 }
 
-.two-petal {
+svg:hover .two-petal {
   animation: bounce-two 0.75s;
   animation-delay: 25ms;
 }
 
-.three-petal {
+svg:hover .three-petal {
   animation: bounce-three 0.75s;
   animation-delay: 50ms;
 }
 
-.four-petal {
+svg:hover .four-petal {
   animation: bounce-four 0.75s;
   animation-delay: 100ms;
 }
 
-.five-petal {
+svg:hover .five-petal {
   animation: bounce-five 0.75s;
   animation-delay: 200ms;
 }
 
-.six-petal {
+svg:hover .six-petal {
   animation: bounce-six 0.75s;
   animation-delay: 250ms;
 }
 
-.seven-petal {
+svg:hover .seven-petal {
   animation: bounce-seven 0.75s;
   animation-delay: 300ms;
 }
 
-.eight-petal {
+svg:hover .eight-petal {
   animation: bounce-eight 0.75s;
   animation-delay: 350ms;
 }
@@ -253,42 +238,42 @@ svg {
   }
 }
 
-.one-middle {
-  animation: middle-one 1s;
+svg:hover .one-middle {
+  animation: middle-one 1.25s;
   animation-delay: 25ms;
 }
 
-.two-middle {
+svg:hover .two-middle {
   animation: middle-two 0.75s;
   animation-delay: 50ms;
 }
 
-.three-middle {
+svg:hover .three-middle {
   animation: middle-three 0.75s;
   animation-delay: 100ms;
 }
 
-.four-middle {
+svg:hover .four-middle {
   animation: middle-four 0.75s;
   animation-delay: 200ms;
 }
 
-.five-middle {
+svg:hover .five-middle {
   animation: middle-five 0.75s;
   animation-delay: 250ms;
 }
 
-.six-middle {
+svg:hover .six-middle {
   animation: middle-six 0.75s;
   animation-delay: 300ms;
 }
 
-.seven-middle {
+svg:hover .seven-middle {
   animation: middle-seven 0.75s;
   animation-delay: 350ms;
 }
 
-.eight-middle {
+svg:hover .eight-middle {
   animation: middle-eight 0.75s;
   animation-delay: 400ms;
 }
@@ -382,37 +367,37 @@ svg {
   }
 }
 
-.one-outer {
+svg:hover .one-outer {
   animation: one-outer 0.75s;
   animation-delay: 25ms;
 }
-.two-outer {
+svg:hover .two-outer {
   animation: two-outer 0.75s;
   animation-delay: 50ms;
 }
-.three-outer {
+svg:hover .three-outer {
   animation: three-outer 0.75s;
   animation-delay: 100ms;
 }
-.four-outer {
+svg:hover .four-outer {
   animation: four-outer 0.75s;
   animation-delay: 200ms;
 }
-.five-outer {
+svg:hover .five-outer {
   animation: five-outer 0.75s;
   animation-delay: 250ms;
 }
-.six-outer {
+svg:hover .six-outer {
   animation: six-outer 0.75s;
   animation-delay: 300ms;
 }
-.seven-outer {
+svg:hover .seven-outer {
   animation: seven-outer 0.75s;
   animation-delay: 350ms;
 }
-.eight-outer {
-  animation: eight-outer 0.75s;
-  animation-delay: 400ms;
+svg:hover .eight-outer {
+  animation: eight-outer 1.25s;
+  animation-delay: 0ms;
 }
 
 @keyframes one-outest {
@@ -504,34 +489,34 @@ svg {
   }
 }
 
-.one-outest {
-  animation: one-outest 1s;
+svg:hover .one-outest {
+  animation: one-outest 1.5s;
 }
-.two-outest {
+svg:hover .two-outest {
   animation: two-outest 1s;
   animation-delay: 25ms;
 }
-.three-outest {
+svg:hover .three-outest {
   animation: three-outest 1s;
   animation-delay: 50ms;
 }
-.four-outest {
+svg:hover .four-outest {
   animation: four-outest 1s;
   animation-delay: 100ms;
 }
-.five-outest {
+svg:hover .five-outest {
   animation: five-outest 1s;
   animation-delay: 200ms;
 }
-.six-outest {
+svg:hover .six-outest {
   animation: six-outest 1s;
   animation-delay: 250ms;
 }
-.seven-outest {
+svg:hover .seven-outest {
   animation: seven-outest 1s;
   animation-delay: 300ms;
 }
-.eight-outest {
+svg:hover .eight-outest {
   animation: eight-outest 1s;
   animation-delay: 300ms;
 }
