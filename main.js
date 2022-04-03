@@ -11,7 +11,7 @@ window.onload = () => {
 
     const transforms = [
       `rotateZ(${45 * number + offset}deg)`,
-      `translateY(${-40 * layer}px)`,
+      `translateY(${-35 * layer}px)`,
     ];
 
     clone.style.zIndex = -i + 1;

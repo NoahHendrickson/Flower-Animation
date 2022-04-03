@@ -44,7 +44,7 @@ body {
   right: 0;
   bottom: 0;
   transform-origin: center;
-  transform: rotateZ(-30deg);
+  transform: rotateZ(-45deg);
 }
 
 .offset {
@@ -62,14 +62,14 @@ body {
 }
 
 .petal {
-  width: 120px;
+  width: 100px;
+  animation-name: floating;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 .petals:hover .petal {
-  animation-name: floating;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
 }
 
 @keyframes floating {
