@@ -112,6 +112,7 @@ svg {
 
 svg:hover .one-petal {
   animation: bounce-one 0.75s;
+  animation-timing-function: cubic-bezier(1, 0.02, 1, 0.23);
 }
 
 svg:hover .two-petal {
@@ -519,4 +520,8 @@ svg:hover .seven-outest {
 svg:hover .eight-outest {
   animation: eight-outest 1s;
   animation-delay: 300ms;
+}
+
+svg:hover .d {
+  animation-timing-function: cubic-bezier(0.44, -0.01, 0.57, 0.99);
 }
